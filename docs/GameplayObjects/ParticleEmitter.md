@@ -111,10 +111,11 @@ Effect.color = ColorSequence;
 
 ![20240723151740_rec_](https://github.com/user-attachments/assets/83d5d69a-937c-4dc7-8159-f41bb5140652)
 
-#### 3.3.1 发射频率：控制粒子的发射频率，单位“个/秒”，范围0-100，默认值20。
+#### 3.3.2 发射频率：控制粒子的发射频率，单位“个/秒”，范围0-100，默认值20。
+![image](https://github.com/user-attachments/assets/a7321518-ee9f-4bee-8421-771f8adb902b)
 
 ::: tip
-如果单个粒子发射器的仍未被销毁的粒子达到了1000个，那么就会自动减缓粒子的发射频率，以保证数量维持在1000以内。
+如果单个粒子发射器所发射出去但仍未被销毁的粒子达到了1000个，那么就会自动减缓发射频率，以保证数量维持在1000以内。
 如果您需要大片粒子的效果，不妨将多个粒子整合为单张图片以减缓渲染压力。
 如果效果仍不理想，可以试试堆叠多个粒子发射器。
 :::
@@ -123,7 +124,40 @@ Effect.color = ColorSequence;
 
 ![20240723152446_rec_](https://github.com/user-attachments/assets/640485f9-d183-4dd2-ba49-e93a97ec1b9c)
 
-#### 3.3.1 速度：控制粒子的速度，单位“厘米/秒”。
+#### 3.3.3 速度：控制粒子的速度，单位“厘米/秒”。
+![image](https://github.com/user-attachments/assets/b98508fd-70bc-4b89-8046-4204819be734)
+
+效果演示：
+
+![20240723155139_rec_](https://github.com/user-attachments/assets/ab0e9f4a-8b8a-44f4-bea7-20a28381b898)
+
+#### 3.3.4 加速度：控制粒子在生命周期中的加速度，支持“关键帧插值”。
+![image](https://github.com/user-attachments/assets/bd14a672-aa8e-47bb-8abe-a93374309659)
+
+效果演示：
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
