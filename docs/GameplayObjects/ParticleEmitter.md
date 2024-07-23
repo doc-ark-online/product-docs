@@ -20,7 +20,7 @@
 #### 3.1.2 相对旋转：粒子发射器在世界中的旋转。
 #### 3.1.3 相对缩放：固定为(1,1,1)，无法更改。
 
-演示效果：
+效果演示：
 
 ![20240723133937_rec_](https://github.com/user-attachments/assets/66e34634-37b8-4ea3-8afe-340e9d454de1)
 
@@ -59,10 +59,22 @@ ColorSequence.push(new mw.colorSequencePoint(1, new LinearColor(0,0,1)));
 Effect.color = ColorSequence;
 ```
 
-演示效果：
+效果演示：
 
 ![20240723143028_rec_](https://github.com/user-attachments/assets/16e4ccb5-01fd-493c-a11d-c40874ddff26)
 
 #### 3.2.3 亮度：控制粒子的亮度。默认值1。
+![image](https://github.com/user-attachments/assets/262abbc1-965f-4b04-bd67-c18a984cd76f)
+
+效果演示：
+
+![20240723144533_rec_](https://github.com/user-attachments/assets/d2141b45-9abd-4394-92b8-d640601b074c)
+
 #### 3.2.4 光照影响：控制粒子收到环境光照影响的程度，0到1代表完全不受影响到完全受影响。默认值0。
+![image](https://github.com/user-attachments/assets/43e6009a-1946-46aa-be89-796be3a44740)
+
+效果演示：
+
+![20240723144927_rec_](https://github.com/user-attachments/assets/cd3bc116-cf84-4d5a-abad-c7d9270423ad)
+
 #### 3.2.5 透明度：控制粒子的透明度，支持“关键帧插值”，默认值1。
