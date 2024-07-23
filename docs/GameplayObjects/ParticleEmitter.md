@@ -1,4 +1,4 @@
-# 粒子发射器
+![20240723151207_rec_](https://github.com/user-attachments/assets/e352cc63-c40a-4ef7-9401-9c6c1f53f3fa)# 粒子发射器
 ::: info
 **阅读本文预计 15 分钟**
 
@@ -26,7 +26,6 @@
 
 ### 3.2 效果属性
 #### 3.2.1 启用：打开时，粒子发射器会在游戏启动时发射粒子，反之则不会。暂停按钮可以让粒子发射器在编辑器中暂停发射。该属性仅可在编辑器中修改。
-
 ![image](https://github.com/user-attachments/assets/5ed98648-7e36-4721-b069-38e8a9f9c7ff)
 
 ::: tip
@@ -34,7 +33,6 @@
 :::
 
 #### 3.2.2 颜色：控制粒子在生命周期中的颜色以及变化。
-
 ![image](https://github.com/user-attachments/assets/27bee8d5-0583-4758-8507-f366e2239e2f)
 
 ::: tip
@@ -78,3 +76,61 @@ Effect.color = ColorSequence;
 ![20240723144927_rec_](https://github.com/user-attachments/assets/cd3bc116-cf84-4d5a-abad-c7d9270423ad)
 
 #### 3.2.5 透明度：控制粒子的透明度，支持“关键帧插值”，默认值1。
+![image](https://github.com/user-attachments/assets/762163d1-02f3-4ea6-a4d6-73637110d0e7)
+
+效果演示：
+
+![20240723145734_rec_](https://github.com/user-attachments/assets/ea26894c-3f41-4033-8893-ddcfb415511f)
+
+#### 3.2.6 贴图：单个粒子的贴图，目前仅适配场景贴图。
+![image](https://github.com/user-attachments/assets/a2bed62a-e02e-4cf8-bbe5-ce74a24335a6)
+
+效果演示：
+
+![20240723150305_rec_](https://github.com/user-attachments/assets/2ceef36f-1288-43aa-a0e7-b2d9cd23b708)
+
+#### 3.2.7 大小：控制粒子的大小，支持“关键帧插值”，默认值1。
+![image](https://github.com/user-attachments/assets/4127a32f-e6c0-463f-ad2e-ac28a742cf5f)
+
+效果演示：
+
+![20240723150846_rec_](https://github.com/user-attachments/assets/dc37ec86-0566-4307-8277-2936f9ca1ec3)
+
+#### 3.2.8 宽高比：控制粒子的宽高比，默认值0。
+![image](https://github.com/user-attachments/assets/445bf523-02b6-4016-a9f0-c5fdaa2587a0)
+
+效果演示：
+
+![20240723151207_rec_](https://github.com/user-attachments/assets/7fcf801b-ad0e-4309-8be5-eb62311db77d)
+
+### 3.3 释放属性
+#### 3.3.1 生命周期：控制粒子从诞生到销毁的时间，X和Y代表区间，当相同时，生命周期恒定，当不同时，生命周期会在二者中间随机，默认值(10,10)。
+![image](https://github.com/user-attachments/assets/3b9ad859-4045-4e30-afce-9e7d5304a394)
+
+效果演示：
+
+![20240723151740_rec_](https://github.com/user-attachments/assets/83d5d69a-937c-4dc7-8159-f41bb5140652)
+
+#### 3.3.1 发射频率：控制粒子的发射频率，单位“个/秒”，范围0-100，默认值20。
+
+::: tip
+如果单个粒子发射器的仍未被销毁的粒子达到了1000个，那么就会自动减缓粒子的发射频率，以保证数量维持在1000以内。
+如果您需要大片粒子的效果，不妨将多个粒子整合为单张图片以减缓渲染压力。
+如果效果仍不理想，可以试试堆叠多个粒子发射器。
+:::
+
+效果演示：
+
+![20240723152446_rec_](https://github.com/user-attachments/assets/640485f9-d183-4dd2-ba49-e93a97ec1b9c)
+
+#### 3.3.1 速度：控制粒子的速度，单位“厘米/秒”。
+
+
+
+
+
+
+
+
+
+
