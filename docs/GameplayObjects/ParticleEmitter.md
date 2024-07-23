@@ -136,26 +136,46 @@ Effect.color = ColorSequence;
 
 效果演示：
 
+![20240723160413_rec_](https://github.com/user-attachments/assets/a780f34e-d0d3-45a2-91a3-bb95d05943fb)
 
+#### 3.3.5 初始旋转角度：控制粒子在发射时的初始旋转角度，默认值0。
+![image](https://github.com/user-attachments/assets/dc5cf306-452b-4a21-80d9-da5b041fa901)
 
+效果演示：
 
+![20240723162651_rec_](https://github.com/user-attachments/assets/794a29a4-dc88-4b2a-a229-72d229edc3a0)
 
+#### 3.3.6 旋转速度：粒子在生命周期过程中旋转的速度，支持“序列帧插值”。
+![image](https://github.com/user-attachments/assets/ed0e728a-1853-404c-9b79-8bf83dfb1bb8)
 
+效果演示：
 
+![20240723163015_rec_](https://github.com/user-attachments/assets/7435a007-34e4-4f80-8a37-e47dbc01cf79)
 
+#### 3.3.7 扩散角度：粒子偏离发射垂直方向的角度
+![image](https://github.com/user-attachments/assets/8ae1b3dd-beac-47b5-9974-c9e315742676)
 
+效果演示：
 
+![20240723163500_rec_](https://github.com/user-attachments/assets/3c98ed13-a652-4ad5-832e-a9b4c98ac3bb)
 
+### 3.4 发射器属性
+#### 3.4.1 形状范围：当前版本粒子发射器仅支持矩形，XYZ表示矩形的长宽高。默认值(50,50,50)。
+![image](https://github.com/user-attachments/assets/f302713e-6ac9-4d08-8917-55005fbe0d8c)
 
+::: tip
+在矩形粒子发射器下，缩小XYZ可以实现粒子从单个点发射；缩小一个一个值，放大其他两个值，可以实现方形平面发射的效果等。
+通过
+:::
 
+效果演示：
 
+![20240723163918_rec_](https://github.com/user-attachments/assets/b90604db-00c0-4348-b9e4-07b6d06cdd11)
 
+#### 3.4.2 形状样式：分为仅表面发射和体积内发射，仅表面发射代表粒子只会从发射器的表面生成，体积内发射代表粒子会从发射器内部生成。默认为体积内发射。
+![image](https://github.com/user-attachments/assets/646fb543-d24d-45fc-93d8-244fefba7fcc)
 
-
-
-
-
-
+效果演示：
 
 
 
