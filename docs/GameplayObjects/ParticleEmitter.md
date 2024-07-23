@@ -11,3 +11,11 @@
 ## 2. 如何创建粒子发射器？
 - 将发射器从功能组件中拖出到世界中，选中粒子发射器后可以在面板中更改属性。
 ![image](https://github.com/user-attachments/assets/dfb44484-e942-4e1a-99d0-4867847dae6c)
+
+## 3. 粒子发射器有哪些属性和接口？
+### 3.1 变换
+![image](https://github.com/user-attachments/assets/c0375572-a48b-4ef5-998b-26ebe7212460)
+- 相对位置：粒子发射器在世界中的位置。
+- 相对旋转：粒子发射器在世界中的旋转。
+- 相对缩放：固定为(1,1,1)，无法更改。
+![20240723133937_rec_](https://github.com/user-attachments/assets/66e34634-37b8-4ea3-8afe-340e9d454de1)
