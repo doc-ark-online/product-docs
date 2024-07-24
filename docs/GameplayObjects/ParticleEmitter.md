@@ -1,4 +1,4 @@
-![20240723151207_rec_](https://github.com/user-attachments/assets/e352cc63-c40a-4ef7-9401-9c6c1f53f3fa)# 粒子发射器
+# 粒子发射器
 ::: info
 **阅读本文预计 15 分钟**
 
@@ -177,7 +177,12 @@ Effect.color = ColorSequence;
 
 效果演示：
 
+| 体积内发射  | 仅表面发射 |
+| - | - |
+| ![20240724093017_rec_](https://github.com/user-attachments/assets/6c1ac1c2-99b3-472a-ad10-b89d8434e175) | ![20240724093128_rec_](https://github.com/user-attachments/assets/9e29d4f1-ce17-4db1-aa45-5f24f1e53304) |
 
+### 3.5 其他属性
+#### 3.5.1 阻力：
 
 
 
