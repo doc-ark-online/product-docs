@@ -219,6 +219,7 @@ export default class EffectExample extends Script {
     }
 }
 ```
-
+| 挂载摄像机上 | 效果演示 |
+| - | - |
 | ![image](https://github.com/user-attachments/assets/f12ce2dd-7785-4a53-b4eb-54f10b467c8e) | ![20240724103814_rec_](https://github.com/user-attachments/assets/f187be4a-9d7d-4a84-91b7-adc49f6e7291) |
 
