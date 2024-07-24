@@ -187,9 +187,9 @@ Effect.color = ColorSequence;
 
 效果演示：
 
-| 体积内发射  | 仅表面发射 |
+| 阻力 = 0.5 | 阻力 = 1 |
 | - | - |
-| - | - |
+| ![20240724104206_rec_](https://github.com/user-attachments/assets/76945630-bac2-4640-95fb-6df42d6ff64c) | ![20240724104206_rec_](https://github.com/user-attachments/assets/37fa2a18-8036-46d7-a8cd-265dd1d28bb6) |
 
 #### 3.5.2 遮罩半径：设置粒子的边缘遮罩裁剪，取值范围0-1，默认值0.5。
 ![image](https://github.com/user-attachments/assets/686c96a2-ecf0-4c52-8f8e-cd0c5aa2f6e3)
@@ -197,7 +197,6 @@ Effect.color = ColorSequence;
 效果演示：
 
 ![20240724104043_rec_](https://github.com/user-attachments/assets/4ecc1cb1-f565-4cbc-94b7-4dfeedb29fd6)
-
 
 ### 4. 粒子发射器的使用建议
 - 需要发射大量粒子时，可以考虑将多个粒子合成一张图片，减少渲染压力。
