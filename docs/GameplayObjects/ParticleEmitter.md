@@ -182,12 +182,15 @@ Effect.color = ColorSequence;
 | ![20240724093017_rec_](https://github.com/user-attachments/assets/6c1ac1c2-99b3-472a-ad10-b89d8434e175) | ![20240724093128_rec_](https://github.com/user-attachments/assets/9e29d4f1-ce17-4db1-aa45-5f24f1e53304) |
 
 ### 3.5 其他属性
-#### 3.5.1 阻力：
+#### 3.5.1 阻力：粒子从发射开始速度衰减到0的速率，计算公式“粒子速度 += 粒子速度 * -阻力 * DeltaTime”，取值范围0-1，默认值0。
 
 
 
 
+#### 3.5.2 遮罩半径：设置粒子的边缘遮罩裁剪，取值范围0-1，默认值0.5。
 
+
+效果演示：
 
 
 
