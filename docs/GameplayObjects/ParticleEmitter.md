@@ -187,9 +187,9 @@ Effect.color = ColorSequence;
 
 效果演示：
 
-| 阻力 = 0.5 | 阻力 = 1 |
+| 阻力 = 0.3 | 阻力 = 1 |
 | - | - |
-| ![20240724104206_rec_](https://github.com/user-attachments/assets/76945630-bac2-4640-95fb-6df42d6ff64c) | ![20240724104206_rec_](https://github.com/user-attachments/assets/37fa2a18-8036-46d7-a8cd-265dd1d28bb6) |
+| ![20240724104350_rec_](https://github.com/user-attachments/assets/fe0d5e2a-c28b-4ae8-b4fa-768c4420432b) | ![20240724104206_rec_](https://github.com/user-attachments/assets/37fa2a18-8036-46d7-a8cd-265dd1d28bb6) |
 
 #### 3.5.2 遮罩半径：设置粒子的边缘遮罩裁剪，取值范围0-1，默认值0.5。
 ![image](https://github.com/user-attachments/assets/686c96a2-ecf0-4c52-8f8e-cd0c5aa2f6e3)
