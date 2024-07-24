@@ -183,16 +183,20 @@ Effect.color = ColorSequence;
 
 ### 3.5 其他属性
 #### 3.5.1 阻力：粒子从发射开始速度衰减到0的速率，计算公式“粒子速度 += 粒子速度 * -阻力 * DeltaTime”，取值范围0-1，默认值0。
-
-
-
-
-#### 3.5.2 遮罩半径：设置粒子的边缘遮罩裁剪，取值范围0-1，默认值0.5。
-
+![image](https://github.com/user-attachments/assets/fc7e3bfb-1e71-425e-bf3e-bf248d350422)
 
 效果演示：
 
+| 体积内发射  | 仅表面发射 |
+| - | - |
+| - | - |
 
+#### 3.5.2 遮罩半径：设置粒子的边缘遮罩裁剪，取值范围0-1，默认值0.5。
+![image](https://github.com/user-attachments/assets/686c96a2-ecf0-4c52-8f8e-cd0c5aa2f6e3)
+
+效果演示：
+
+![20240724104043_rec_](https://github.com/user-attachments/assets/4ecc1cb1-f565-4cbc-94b7-4dfeedb29fd6)
 
 
 ### 4. 粒子发射器的使用建议
@@ -200,8 +204,22 @@ Effect.color = ColorSequence;
 - 注意粒子的生命周期，如果长时间未销毁粒子，可能会影响新发射的粒子数量。
 - 粒子发射器可以制作大量效果，如落叶，雨雪，升级特效，脚底行走特效等。但是需要注意实现方法，如下，实现雨雪效果时，可以考虑将粒子发射器挂载在摄像机中而不是世界中。
 
+```TypeScript
+// 脚本中将粒子发射器挂载在摄像机上
+@Component
+export default class EffectExample extends Script {
+    private character: Character;
+    
+    protected onStart(): void {
 
+        let Effect = this.gameObject as ParticleEmitter;
+        Player.asyncGetLocalPlayer().then((player) => {
+            Effect.parent=Camera.currentCamera
+            Effect.localTransform.position=new Vector(0,0,50)
+        });
+    }
+}
+```
 
-
-
+| ![image](https://github.com/user-attachments/assets/f12ce2dd-7785-4a53-b4eb-54f10b467c8e) | ![20240724103814_rec_](https://github.com/user-attachments/assets/f187be4a-9d7d-4a84-91b7-adc49f6e7291) |
 
