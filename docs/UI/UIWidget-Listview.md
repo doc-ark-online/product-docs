@@ -96,21 +96,23 @@ export default class NewUIScript extends UIScript {
 }
 ```
 ::: tip
-请注意如果是瓦片视图，需要在上述代码获得TileView控件之后，需要手动设置排列规则，如下：\n
-this.TileView = this.uiWidgetBase.findChildByPath('RootCanvas/TileView') as mw.TileView\n
-// 通过设置子对象的宽高来决定对象的排列规则\n
-// 本例中TileView宽400+，这里设定itemWidth200\n
-// 因此如下图一排容纳了两个\n
-this.TileView.itemWidth = 200\n
-this.TileView.itemHeight = 50\n
-
-// TileView继承自ListView，相关数据也保持一致\n
-let arrTileV:ListViewItemData[] = []\n
-for(let index = 0; index < 10; index++){\n
-    arrTileV.push(new ListViewItemData(index))\n
-}\n
-tileV.addItems(arrTileV)
+请注意如果是瓦片视图，需要在上述代码获得TileView控件之后，需要手动设置排列规则如下
 :::
+```ts
+this.TileView = this.uiWidgetBase.findChildByPath('RootCanvas/TileView') as mw.TileView
+// 通过设置子对象的宽高来决定对象的排列规则
+// 本例中TileView宽400+，这里设定itemWidth200
+// 因此如下图一排容纳了两个
+this.TileView.itemWidth = 200
+this.TileView.itemHeight = 50
+
+// TileView继承自ListView，相关数据也保持一致
+let arrTileV:ListViewItemData[] = []
+for(let index = 0; index < 10; index++){
+    arrTileV.push(new ListViewItemData(index))
+}
+tileV.addItems(arrTileV)
+```
 
 - 启动游戏后，我们按下数字键1，就能在列表视图中动态生成新项目了，并且每个项目中的数字都是节点数据基类的序号。
 ![](https://cdn.233xyx.com/online/69BYcSYeLEIR1718169531421.gif)
