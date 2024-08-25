@@ -1,19 +1,20 @@
 # 更新日志
 ## [口袋方舟更新计划](https://docs.ark.online/ReleaseNote/Special/口袋方舟更新计划.html)
+## [v0.36.0.6](https://docs.ark.online/ReleaseNote/v0.36.0.6.html)
 
-## [v0.36.0.5](https://docs-036.ark.online/ReleaseNote/v0.36.0.5.html)
+## [v0.36.0.5](https://docs.ark.online/ReleaseNote/v0.36.0.5.html)
 
-## [v0.36.0.4](https://docs-036.ark.online/ReleaseNote/v0.36.0.4.html)
+## [v0.36.0.4](https://docs.ark.online/ReleaseNote/v0.36.0.4.html)
 
-## [v0.36.0.3](https://docs-036.ark.online/ReleaseNote/v0.36.0.3.html)
+## [v0.36.0.3](https://docs.ark.online/ReleaseNote/v0.36.0.3.html)
 
-## [v0.36.0.2](https://docs-036.ark.online/ReleaseNote/v0.36.0.2.html)
+## [v0.36.0.2](https://docs.ark.online/ReleaseNote/v0.36.0.2.html)
 
-## [v0.36.0.1](https://docs-036.ark.online/ReleaseNote/v0.36.0.1.html)
+## [v0.36.0.1](https://docs.ark.online/ReleaseNote/v0.36.0.1.html)
 
-## [v0.36.0.0](https://docs-036.ark.online/ReleaseNote/v0.36.0.0.html)
+## [v0.36.0.0](https://docs.ark.online/ReleaseNote/v0.36.0.0.html)
 
-## [v0.35.0.2](https://docs-035.ark.online/ReleaseNote/v0.35.0.2.html)
+## [v0.35.0.2](https://docs.ark.online/ReleaseNote/v0.35.0.2.html)
 
 ## [v0.35.0.4](https://docs.ark.online/ReleaseNote/v0.35.0.4.html)
 

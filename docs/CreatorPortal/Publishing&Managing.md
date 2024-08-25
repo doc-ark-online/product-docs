@@ -2,11 +2,13 @@
 
 ::: tip 阅读本文大概需要10分钟
 
-本文将帮助您快速了解创作者中心及游戏发布、更新、测试及审核流程。
+本文将帮助您快速了解创作者中心及游戏发布、更新及审核流程。
 
 :::
 
-[创作者中心](https://portal.ark.online/#/admin/game-list)将帮助您一站式管理发布的游戏及资源，您可以在此查看游戏相关数据、接入游戏相关服务、管理账号以及进行财务结算。
+[创作者中心](https://portal.ark.online/#/admin/game-list)将帮助您一站式管理发布的游戏及资源。
+
+> 您可以在此查看游戏相关数据、接入游戏相关服务、管理账号以及进行财务结算。
 
 ![CleanShot 2023-09-24 at 10.29.52@2x](https://arkimg.ark.online/CleanShot%202023-09-24%20at%2010.29.52@2x.webp)
 
@@ -45,7 +47,7 @@
 - **游戏视频**：详情页第一张图片可替换为游戏视频（非必填）；
 - **游戏描述**：展示在游戏图片下方，可用文字介绍游戏玩法；
 
-## 游戏更新
+### 更新游戏版本
 
 打开编辑器菜单栏的【工程】-【更新已发布游戏】，选择线上对应游戏点击更新。
 
@@ -55,29 +57,54 @@
 
 ![CleanShot 2023-09-25 at 16.45.30@2x](https://arkimg.ark.online/CleanShot%202023-09-25%20at%2016.45.30@2x.webp)
 
-## 游戏测试
+## 同步海外
+
+### 绑定海外账号
+
+1. 登录[海外开发者平台](https://portal.gpark.fun)，点击右上角头像并复制token；
+
+<img src="https://cdn.233xyx.com/athena/online/99a3246cbeb04ad1a4974e236cefa8a3_321840760.webp" alt="img" style="zoom:50%;" />
+
+2. 前往[国内开发者平台](https://portal.ark.online/#/admin/home)绑定海外账号，将海外的token复制到国内贴上
 
 ::: danger 注意
 
-如果只是为了测试游戏，不需要提交审核，审核通过游戏会直接上线！
+token有效期5min，绑定后不可修改
 
 :::
 
-### 获取游戏二维码
+| <img src="https://cdn.233xyx.com/athena/online/79c1e30fa1fc4336a8f6c50177675cdb_322564351.webp" alt="img" style="zoom: 25%;" />| <img src="https://cdn.233xyx.com/athena/online/8397e8f006b84e6c897a139ae5d273ed_322542023.webp" alt="img" style="zoom:25%;" />|
+| --------------------------------------------------------- | ---------------------------------------------------- |
 
-**方法一**：游戏列表页点击【游戏测试】即可生成当前游戏的测试二维码。
+### 本地化及发布
 
-<video controls src="https://cdn.233xyx.com/online/CjoQe1e5aXR91695525099139.mp4"></video>
+可以使用编辑器的本地化工具完成游戏内容本地化，具体使用方式可前往[游戏本地化](https://docs.ark.online/Localization/GameLanguageLocalization.html)查看
 
-**方法二**：在对应游戏列表，点击【总览】-【游戏测试】打开需要测试游戏的二维码。
+<img src="https://arkimg.ark.online/1722253246499-50.gif" alt="img" style="zoom:50%;" />
 
-![CleanShot 2023-09-25 at 16.46.35@2x](https://arkimg.ark.online/CleanShot%202023-09-25%20at%2016.46.35@2x.webp)
+发布地区勾选Gpark，即可将您的游戏同步至海外，可以绑定已有的游戏或者发布为新游戏；
 
-### 使用游戏二维码
+<img src="https://arkimg.ark.online/1722253246499-51.webp" alt="img" style="zoom:50%;" />
 
-打开233乐园扫一扫（可通过[233官网](https://www.233leyuan.com/)下载），找到需要测试的版本，点击【开始】拉起游戏。
+点击【一键同步素材】可将素材同步到其他语言，【一键翻译】可将中文翻译成其他语言；
 
-![CleanShot 2023-09-24 at 13.38.45@2x](https://arkimg.ark.online/CleanShot%202023-09-24%20at%2013.38.45@2x.webp)
+> 图片上若有文字不会自动翻译，请尽量避免图上有文字。
+
+<img src="https://arkimg.ark.online/1722253246499-52.webp" alt="img" style="zoom:50%;" />
+
+### 海外游戏同步
+
+ 刷新海外页面，可看到由国内同步到海外过去的游戏，同时游戏会自动提交审核；
+
+ >  国内外游戏审核标准不同，请您及时前往海外开发者查看海外有审核情况；
+
+| ![img](https://arkimg.ark.online/1722308931851-42.webp)<br />国内 | ![img](https://cdn.233xyx.com/athena/online/bfe28449251442f38dd3bbe632bfabf8_322558374.webp)<br />海外 |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
+| ![img](https://arkimg.ark.online/1722253246499-55-1722303656008-87.webp)<br />国内商品 | ![img](https://arkimg.ark.online/1722253246499-56-1722303661350-89.webp)<br />海外商品 |
+
+ - 若您的游戏使用了本地资源，将在国内本地资源审核通过之后，再将游戏发到海外地区；
+
+ - 若您的游戏开启了内购功能，游戏绑定的商品也会一起同步到海外并将自动翻译；
 
 ## 游戏审核
 

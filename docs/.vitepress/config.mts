@@ -257,26 +257,28 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
         collapsed: true,
         items: [
           {
-            text: '游戏发布及管理',
+            text: '游戏发布与审核',
             link: '/CreatorPortal/Publishing&Managing.md'
           },
-          { text: '分析游戏数据', link: '/CreatorPortal/Analytics.md' },
-          { text: '接入游戏广告', link: '/CreatorPortal/Advertising.md' },
+          { text: '游戏测试与沙箱', link: '/CreatorPortal/Debug&release.md' },
+          { text: '版本管理与实验', link: '/CreatorPortal/VersionManagement.md' },
+          { text: '游戏数据与反馈', link: '/CreatorPortal/Analytics.md' },
           { text: '接入游戏内购', link: '/CreatorPortal/In-App Purchase.md' },
-          { text: '游戏性能及报错', link: '/CreatorPortal/PerformanceOverview.md' },
-          { text: '房间监控及日志', link: '/CreatorPortal/Room&Logs.md' },
-          { text: '管理游戏版本', link: '/CreatorPortal/VersionManagement.md' },
+          { text: '接入游戏广告', link: '/CreatorPortal/Advertising.md' },
           {
-            text: '游戏推荐及曝光',
+            text: '游戏推荐与曝光',
             link: '/CreatorPortal/Promotion&Operation.md'
           },
           {
-            text: '游戏福利及活跃',
-            link: '/CreatorPortal/GameBenefits.md'
+            text: '游戏活跃与公告',
+            link: '/CreatorPortal/Announcement.md'
           },
+          { text: '游戏性能与报错', link: '/CreatorPortal/PerformanceOverview.md' },
+          { text: '房间服务与日志', link: '/CreatorPortal/Room&Logs.md' },
           { text: '管理游戏社区', link: '/CreatorPortal/Community.md' },
+          { text: '管理游戏福利', link: '/CreatorPortal/GameBenefits.md' },
           {
-            text: '协作与转移游戏',
+            text: '协作权限及管理',
             link: '/CreatorPortal/Collaboration&Transfer.md'
           },
           { text: '创作者收益结算', link: '/CreatorPortal/Monetization.md' }
@@ -287,6 +289,7 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
         collapsible: true,
         collapsed: true,
         items: [
+          { text: 'v0.36.0.6', link: '/ReleaseNote/v0.36.0.6.md' },
           { text: 'v0.36.0.5', link: '/ReleaseNote/v0.36.0.5.md' },
           { text: 'v0.36.0.4', link: '/ReleaseNote/v0.36.0.4.md' },
           { text: 'v0.36.0.3', link: '/ReleaseNote/v0.36.0.3.md' },
@@ -404,16 +407,16 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
         link: 'https://forum.ark.online/'
       },
       {
-        text: '036 版本',
+        text: '主版本',
         items: [
           {
 
-            text: '036 版本',
-            link: 'https://docs-036.ark.online/'
+            text: '037 版本',
+            link: 'https://docs-037.ark.online/'
           },
          {
-            text: '034 版本',
-            link: 'https://docs-034.ark.online/'
+            text: '035 版本',
+            link: 'https://docs-035.ark.online/'
           }     
         ]
       }
