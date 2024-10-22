@@ -287,6 +287,11 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
         collapsible: true,
         collapsed: true,
         items: [
+          { text: 'v0.39.0.5', link: '/ReleaseNote/v0.39.0.5.md' },
+          { text: 'v0.39.0.4', link: '/ReleaseNote/v0.39.0.4.md' },
+          { text: 'v0.39.0.3', link: '/ReleaseNote/v0.39.0.3.md' },
+          { text: 'v0.39.0.2', link: '/ReleaseNote/v0.39.0.2.md' },
+          { text: 'v0.39.0.1', link: '/ReleaseNote/v0.39.0.1.md' },
           { text: 'v0.39.0.0', link: '/ReleaseNote/v0.39.0.0.md' },
           { text: 'v0.37.0.9', link: '/ReleaseNote/v0.37.0.9.md' },
           { text: 'v0.37.0.8', link: '/ReleaseNote/v0.37.0.8.md' },
@@ -416,16 +421,17 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
         link: 'https://forum.ark.online/'
       },
       {
-        text: '038 版本',
+        text: '主版本',
         items: [
-          {
-            text: '主版本',
-            link: 'https://docs.ark.online/'
-          },
+          
          {
-            text: '036 版本',
-            link: 'https://docs-036.ark.online/'
-          }     
+            text: '037 版本',
+            link: 'https://docs-037.ark.online/'
+          },
+{
+            text: '040 版本',
+            link: 'https://docs-040.ark.online/'
+          }   
 
         ]
       }

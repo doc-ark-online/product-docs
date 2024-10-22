@@ -61,6 +61,22 @@
 
 ### 绑定海外账号
 
+分为以下两种情况，1 尚未注册海外开发者， 2 已注册过海外开发者账号，请根据实际情况跟随以下说明操作；
+
+#### 首次注册海外开发者账号
+
+您无需进行额外操作，游戏信息填写完成并提审后，系统将自动为您创建并绑定一个海外开发者账号，该账号登录方式将通过站内信&短信发送给您；
+
+您可通过访问[海外创作者中心](https://portal.gpark.fun)，使用账密登录；
+
+<img src="https://qn-cdn.233leyuan.com/athena/online/98e88ac4eab84ac6bfe7ff11fcaeb079_387361110.webp" alt="img" style="zoom:50%;" />
+
+也可直接通过点击国内创作者中心右上角海外版切换至海外；
+
+<img src="https://qn-cdn.233leyuan.com/athena/online/cd6b90c35d4d4924817fa98c0327adc4_387361109.webp" alt="img" style="zoom:50%;" />
+
+#### 已有海外开发者账号
+
 1. 登录[海外创作者中心](https://portal.gpark.fun)，点击右上角头像并复制token；
 
 <img src="https://cdn.233xyx.com/athena/online/99a3246cbeb04ad1a4974e236cefa8a3_321840760.webp" alt="img" style="zoom:50%;" />
@@ -69,7 +85,7 @@
 
 ::: danger 注意
 
-token有效期5min，绑定后不可修改
+token有效期5min，若您想修改绑定账号，也可点击解绑按钮进行解绑
 
 :::
 
@@ -78,9 +94,8 @@ token有效期5min，绑定后不可修改
 
 ### 本地化及发布
 
-可以使用编辑器的本地化工具完成游戏内容本地化，具体使用方式可前往[游戏本地化](https://docs.ark.online/Localization/GameLanguageLocalization.html)查看
+编辑器提供本地化工具，可前往[游戏本地化](https://docs.ark.online/Localization/GameLanguageLocalization.html)学习如何将您的游戏翻译成其他语言；
 
-<img src="https://arkimg.ark.online/1722253246499-50.gif" alt="img" style="zoom:50%;" />
 
 发布地区勾选Gpark，即可将您的游戏同步至海外，可以绑定已有的游戏或者发布为新游戏；
 
