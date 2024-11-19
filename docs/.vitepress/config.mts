@@ -282,7 +282,8 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
             text: '协作权限及管理',
             link: '/CreatorPortal/Collaboration&Transfer.md'
           },
-          { text: '创作者收益结算', link: '/CreatorPortal/Monetization.md' }
+          { text: '创作者收益结算', link: '/CreatorPortal/Monetization.md' },
+{ text: '服饰上架&售卖', link: '/CreatorPortal/Clothespublish&sales.md' }
         ]
       },
       {
