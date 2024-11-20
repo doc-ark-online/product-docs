@@ -52,8 +52,7 @@
 
 ### 第四步 前往创作者中心填写商品信息上架
 
-| 创作者中心地址：[https://portalark.online/#/admin/home](https://portalark.online/#/admin/home) |
-| --- |
+[创作者中心](https://portal.ark.online/#/admin/platform-product)
 
 - 点击导航栏[资源]-[平台商品]进入上传页面
 - 点击新建填写相关信息
@@ -71,11 +70,11 @@
 
 ### 第六步 查看收益
 
-您可在[资源]-[平台商品]-[充值订单]和[资源]-[平台商品]-[退款订单]实时查看您的服饰资源销售情况以及预估收益
+您可在[资源]-[[平台商品](https://portal.ark.online/#/admin/platform-product)]-[充值订单]和[资源]-[[平台商品](https://portal.ark.online/#/admin/platform-product)]-[退款订单]实时查看您的服饰资源销售情况以及预估收益
 
 ### 第七步 周期结算
 
-本平台将在每月2号定时出账，您可前往[财务与管理]-[结算管理](https://portal.ark.online/#/admin/settle-list)进行结算，具体流程参见xxxx
+本平台将在每月2号定时出账，您可前往[财务与管理]-[结算管理](https://portal.ark.online/#/admin/settle-list)进行结算，具体流程参见[创作者收益结算](https://docs.ark.online/CreatorPortal/Monetization.html)
 
 ### 常见Q&A
 
