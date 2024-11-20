@@ -52,9 +52,7 @@
 
 ### 第四步 前往创作者中心填写商品信息上架
 
-[创作者中心](https://portal.ark.online/#/admin/platform-product)
-
-- 点击导航栏[资源]-[平台商品]进入上传页面
+- 点击导航栏[资源]-[[平台商品](https://portal.ark.online/#/admin/platform-product)]进入上传页面
 - 点击新建填写相关信息
   - 商品名称：服饰的名称，需贴合衣服实际；
   - 商品描述：对衣服的描述；
