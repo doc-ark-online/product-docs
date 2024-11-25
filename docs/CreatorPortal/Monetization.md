@@ -54,7 +54,7 @@
 
 服饰收益是您自己制作服饰类型资源上架后，玩家购买您所上架的服饰产生的收益，具体可查看[服饰上架&售卖](https://docs.ark.online/CreatorPortal/Clothespublish&sales.html)进行接入；收益可在【资源】-【[平台商品](https://portal.ark.online/#/admin/platform-product)】查看；
 
-## 分成规则
+## 激励规则
 
 目前口袋方舟可通过接入广告、内购、服饰创作获得激励，激励规则如下：
 
