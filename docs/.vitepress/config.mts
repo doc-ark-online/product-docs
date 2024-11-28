@@ -213,7 +213,8 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
           { text: '角色插槽', link: '/Role/Slot.md' },
           { text: '布娃娃功能', link: '/Role/Ragdoll.md' },
           { text: '头顶名称', link: '/Role/OverHeadName.md' },
-          { text: '基础状态', link: '/Role/State.md' }
+          { text: '基础状态', link: '/Role/State.md' },
+          { text: '角色编辑器服务', link: '/Role/AvatarEditorService.md' }
         ]
       },
       {
@@ -281,7 +282,8 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
             text: '协作权限及管理',
             link: '/CreatorPortal/Collaboration&Transfer.md'
           },
-          { text: '创作者收益结算', link: '/CreatorPortal/Monetization.md' }
+          { text: '创作者收益结算', link: '/CreatorPortal/Monetization.md' },
+{ text: '服饰上架&售卖', link: '/CreatorPortal/Clothespublish&sales.md' }
         ]
       },
       {
@@ -440,7 +442,6 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
             text: '主版本',
             link: 'https://docs.ark.online/'
           }   
-
         ]
       }
     ],
