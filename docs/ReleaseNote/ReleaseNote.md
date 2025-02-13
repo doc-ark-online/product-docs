@@ -1,6 +1,13 @@
 # 更新日志
 ## [口袋方舟更新计划](https://docs.ark.online/ReleaseNote/Special/口袋方舟更新计划.html)
 
+## [v0.43.0.2](https://docs.ark.online/ReleaseNote/v0.43.0.2.html)
+
+## [v0.43.0.1](https://docs.ark.online/ReleaseNote/v0.43.0.1.html)
+
+## [v0.43.0.0](https://docs.ark.online/ReleaseNote/v0.43.0.0.html)
+
+------
 ## [v0.42.0.2](https://docs.ark.online/ReleaseNote/v0.42.0.2.html)
 
 ## [v0.42.0.1](https://docs.ark.online/ReleaseNote/v0.42.0.1.html)
