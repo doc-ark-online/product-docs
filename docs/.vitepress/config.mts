@@ -263,7 +263,7 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
           },
           { text: '游戏测试与沙箱', link: '/CreatorPortal/Debug&release.md' },
           { text: '版本管理与实验', link: '/CreatorPortal/VersionManagement.md' },
-          { text: '游戏数据与反馈', link: '/CreatorPortal/Analytics.md' },
+          { text: '游戏数据与反馈', link: '/CreatorPortal/BasicData.md' },
           { text: '接入游戏内购', link: '/CreatorPortal/In-App Purchase.md' },
           { text: '接入游戏广告', link: '/CreatorPortal/Advertising.md' },
           {
