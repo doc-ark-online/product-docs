@@ -238,7 +238,7 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
           },
           { text: '资源导入上传工具', link: '/Resource/AssetUpload.md' },
           { text: '材质编辑器', link: '/Resource/MaterialEditor.md' },
-          { text: 'AIGC及资源管理', link: '/CreatorPortal/AIGC&Resource.md' }
+
         ]
       },
       {
