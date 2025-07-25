@@ -291,6 +291,7 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
         collapsible: true,
         collapsed: true,
         items: [
+          { text: 'v0.47.0.0', link: '/ReleaseNote/v0.47.0.0.md' },
           { text: 'v0.46.0.1', link: '/ReleaseNote/v0.46.0.1.md' },
           { text: 'v0.46.0.0', link: '/ReleaseNote/v0.46.0.0.md' },
           { text: 'v0.44.0.0', link: '/ReleaseNote/v0.44.0.0.md' },
@@ -380,20 +381,7 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
           { text: 'v0.28.0.0', link: '/ReleaseNote/v0.28.0.0.md' },
           { text: 'v0.27.0.3', link: '/ReleaseNote/v0.27.0.3.md' },
           { text: 'v0.27.0.1', link: '/ReleaseNote/v0.27.0.1.md' },
-          { text: 'v0.27.0.0', link: '/ReleaseNote/v0.27.0.0.md' },
-          { text: 'v0.26.0.2', link: '/ReleaseNote/v0.26.0.2.md' },
-          { text: 'v0.26.0.1', link: '/ReleaseNote/v0.26.0.1.md' },
-          { text: 'v0.26.0.0', link: '/ReleaseNote/v0.26.0.0.md' },
-          { text: 'v0.25.0.4', link: '/ReleaseNote/v0.25.0.4.md' },
-          { text: 'v0.25.0.3', link: '/ReleaseNote/v0.25.0.3.md' },
-          { text: 'v0.25.0.2', link: '/ReleaseNote/v0.25.0.2.md' },
-          { text: 'v0.25.0.1', link: '/ReleaseNote/v0.25.0.1.md' },
-          { text: 'v0.25.0.0', link: '/ReleaseNote/v0.25.0.0.md' },
-          { text: 'v0.24.0.2', link: '/ReleaseNote/v0.24.0.2.md' },
-          { text: 'v0.24.0.1', link: '/ReleaseNote/v0.24.0.1.md' },
-          { text: 'v0.24.0.0', link: '/ReleaseNote/v0.24.0.0.md' },
-          { text: 'v0.23.0.0', link: '/ReleaseNote/v0.23.0.0.md' },
-          { text: 'v0.22.0.0', link: '/ReleaseNote/v0.22.0.0.md' }
+          { text: 'v0.27.0.0', link: '/ReleaseNote/v0.27.0.0.md' }
         ]
       }
     ],
