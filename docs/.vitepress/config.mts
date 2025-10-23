@@ -271,6 +271,10 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
             link: '/CreatorPortal/Promotion&Operation.md'
           },
           {
+            text: '如何做好游戏首图',
+            link: '/CreatorPortal/HowToDesingFirstPic.md'
+          },
+          {
             text: '游戏活跃与公告',
             link: '/CreatorPortal/Announcement.md'
           },
