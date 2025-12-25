@@ -276,6 +276,10 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
             link: '/CreatorPortal/HowToDesingFirstPic.md'
           },
           {
+            text: '游戏自制区视频博主如何起号',
+            link: '/CreatorPortal/BloggerAccountSetup.md'
+          },
+          {
             text: '游戏活跃与公告',
             link: '/CreatorPortal/Announcement.md'
           },
@@ -485,4 +489,5 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
     }
   }
 })
+
 
