@@ -296,6 +296,12 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
         ]
       },
       {
+        text: '打包单机游戏教程',
+        link: '/PackageGame.md',
+        collapsible: false,
+        collapsed: false
+      },
+      {
         text: '更新日志',
         collapsible: true,
         collapsed: true,
